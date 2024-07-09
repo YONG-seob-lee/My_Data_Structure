@@ -76,11 +76,11 @@ template <typename T>
 inline void DLNode<T>::AddNext(Ddata<T> _Data)
 {
 	DLNode<T>* NewNode = new DLNode<T>(_Data);
-
+	
 	if (NextNode != nullptr)
 	{
-		NewNode->AddNext(NextNode);
-		NewNode->AddPrev(this);
+		NewNode->SetNext(NextNode);
+		NewNode->SetPrev(NextNode->GetPrev());
 
 		NextNode->PrevNode = NewNode;
 	}
@@ -94,10 +94,10 @@ inline void DLNode<T>::AddPrev(Ddata<T> _Data)
 	DLNode<T>* NewNode = new DLNode<T>(_Data);
 	if (PrevNode != nullptr)
 	{
-		PrevNode->AddNext(NewNode);
+		PrevNode->SetNext(NewNode);
 		DLNode<T>* ThisNode = PrevNode->GetNext();
-		NewNode->AddPrev(PrevNode);
-		NewNode->AddNext(ThisNode);
+		NewNode->SetPrev(PrevNode);
+		NewNode->SetPrev(ThisNode);
 	}
 
 	PrevNode = NewNode;

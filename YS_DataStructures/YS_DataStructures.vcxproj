@@ -129,12 +129,14 @@
   <ItemGroup>
     <ClCompile Include="YS_DataStructures.cpp" />
     <ClCompile Include="YS_doublelinkedlist.cpp" />
+    <ClCompile Include="YS_HashTables.cpp" />
     <ClCompile Include="YS_linkedlist.cpp" />
     <ClCompile Include="YS_queue.cpp" />
     <ClCompile Include="YS_stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YS_doublelinkedlist.h" />
+    <ClInclude Include="YS_HashTables.h" />
     <ClInclude Include="YS_linkedlist.h" />
     <ClInclude Include="YS_queue.h" />
     <ClInclude Include="YS_stack.h" />

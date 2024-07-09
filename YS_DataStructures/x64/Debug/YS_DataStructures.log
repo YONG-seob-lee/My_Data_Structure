@@ -1,0 +1,474 @@
+﻿  YS_DataStructures.cpp
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,10): error C2664: 'void DLNode<T>::AddNext(Ddata<T>)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,10): error C2664:         with
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,10): error C2664:         [
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,10): error C2664:             T=int
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,10): error C2664:         ]
+  (소스 파일 'YS_DataStructures.cpp'을(를) 컴파일하는 중)
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  'Ddata<T>::Ddata': 모든 인수 형식을 변환할 수 있는 오버로드된 함수가 없습니다.
+          with
+          [
+              T=int
+          ]
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	'Ddata<T>::Ddata(Ddata<T> &&)'일 수 있습니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  		'Ddata<T>::Ddata(Ddata<T> &&)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T> &&'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  			원인: 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	또는       'Ddata<T>::Ddata(const Ddata<T> &)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  		'Ddata<T>::Ddata(const Ddata<T> &)': 인수 1을(를) 'DLNode<T> *'에서 'const Ddata<T> &'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  			원인: 'DLNode<T> *'에서 'const Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(9,2):
+  	또는       'Ddata<T>::Ddata(T)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  		'Ddata<T>::Ddata(T)': 인수 1을(를) 'DLNode<T> *'에서 'T'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  			이 변환이 가능한 컨텍스트가 없습니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,20):
+  	인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(40,7):
+  'DLNode<T>::AddNext' 선언을 참조하십시오.
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,10):
+  인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(82,10):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_DataStructures.cpp(62,27):
+  	컴파일되는 클래스 템플릿 인스턴스화 'doublelinkedlist<int>'에 대한 참조를 확인하세요.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(108,1):
+  	클래스 템플릿 멤버 함수 'bool doublelinkedlist<int>::CreateList(Ddata<T>)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_DataStructures.cpp(63,21):
+  		'main'에서 'doublelinkedlist<int>::CreateList'에 대한 첫 번째 참조를 확인하세요.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(115,27):
+  	컴파일되는 클래스 템플릿 인스턴스화 'DLNode<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=int
+          ]
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(77,1):
+  	클래스 템플릿 멤버 함수 'void DLNode<T>::AddNext(Ddata<T>)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(130,19):
+  		'doublelinkedlist<int>::AddNext'에서 'DLNode<T>::AddNext'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_DataStructures.cpp(65,18):
+  		'main'에서 'doublelinkedlist<int>::AddNext'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,10): error C2664: 'void DLNode<T>::AddPrev(Ddata<T>)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,10): error C2664:         with
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,10): error C2664:         [
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,10): error C2664:             T=int
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,10): error C2664:         ]
+  (소스 파일 'YS_DataStructures.cpp'을(를) 컴파일하는 중)
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  'Ddata<T>::Ddata': 모든 인수 형식을 변환할 수 있는 오버로드된 함수가 없습니다.
+          with
+          [
+              T=int
+          ]
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	'Ddata<T>::Ddata(Ddata<T> &&)'일 수 있습니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  		'Ddata<T>::Ddata(Ddata<T> &&)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T> &&'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  			원인: 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	또는       'Ddata<T>::Ddata(const Ddata<T> &)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  		'Ddata<T>::Ddata(const Ddata<T> &)': 인수 1을(를) 'DLNode<T> *'에서 'const Ddata<T> &'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  			원인: 'DLNode<T> *'에서 'const Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(9,2):
+  	또는       'Ddata<T>::Ddata(T)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  		'Ddata<T>::Ddata(T)': 인수 1을(를) 'DLNode<T> *'에서 'T'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  			이 변환이 가능한 컨텍스트가 없습니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,20):
+  	인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(41,7):
+  'DLNode<T>::AddPrev' 선언을 참조하십시오.
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(83,10):
+  인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,11): error C2664: 'void DLNode<T>::AddNext(Ddata<T>)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,11): error C2664:         with
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,11): error C2664:         [
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,11): error C2664:             T=int
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,11): error C2664:         ]
+  (소스 파일 'YS_DataStructures.cpp'을(를) 컴파일하는 중)
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  'Ddata<T>::Ddata': 모든 인수 형식을 변환할 수 있는 오버로드된 함수가 없습니다.
+          with
+          [
+              T=int
+          ]
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	'Ddata<T>::Ddata(Ddata<T> &&)'일 수 있습니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  		'Ddata<T>::Ddata(Ddata<T> &&)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T> &&'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  			원인: 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	또는       'Ddata<T>::Ddata(const Ddata<T> &)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  		'Ddata<T>::Ddata(const Ddata<T> &)': 인수 1을(를) 'DLNode<T> *'에서 'const Ddata<T> &'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  			원인: 'DLNode<T> *'에서 'const Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(9,2):
+  	또는       'Ddata<T>::Ddata(T)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  		'Ddata<T>::Ddata(T)': 인수 1을(를) 'DLNode<T> *'에서 'T'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  			이 변환이 가능한 컨텍스트가 없습니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,21):
+  	인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(40,7):
+  'DLNode<T>::AddNext' 선언을 참조하십시오.
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,11):
+  인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(97,11):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(93,1):
+  	클래스 템플릿 멤버 함수 'void DLNode<T>::AddPrev(Ddata<T>)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(134,20):
+  		'doublelinkedlist<int>::AddNext'에서 'DLNode<T>::AddPrev'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_DataStructures.cpp(65,18):
+  		'main'에서 'doublelinkedlist<int>::AddNext'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,10): error C2664: 'void DLNode<T>::AddPrev(Ddata<T>)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,10): error C2664:         with
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,10): error C2664:         [
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,10): error C2664:             T=int
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,10): error C2664:         ]
+  (소스 파일 'YS_DataStructures.cpp'을(를) 컴파일하는 중)
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  'Ddata<T>::Ddata': 모든 인수 형식을 변환할 수 있는 오버로드된 함수가 없습니다.
+          with
+          [
+              T=int
+          ]
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	'Ddata<T>::Ddata(Ddata<T> &&)'일 수 있습니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  		'Ddata<T>::Ddata(Ddata<T> &&)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T> &&'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  			원인: 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	또는       'Ddata<T>::Ddata(const Ddata<T> &)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  		'Ddata<T>::Ddata(const Ddata<T> &)': 인수 1을(를) 'DLNode<T> *'에서 'const Ddata<T> &'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  			원인: 'DLNode<T> *'에서 'const Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(9,2):
+  	또는       'Ddata<T>::Ddata(T)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  		'Ddata<T>::Ddata(T)': 인수 1을(를) 'DLNode<T> *'에서 'T'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  			이 변환이 가능한 컨텍스트가 없습니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,20):
+  	인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(41,7):
+  'DLNode<T>::AddPrev' 선언을 참조하십시오.
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(99,10):
+  인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,10): error C2664: 'void DLNode<T>::AddNext(Ddata<T>)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,10): error C2664:         with
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,10): error C2664:         [
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,10): error C2664:             T=int
+C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,10): error C2664:         ]
+  (소스 파일 'YS_DataStructures.cpp'을(를) 컴파일하는 중)
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  'Ddata<T>::Ddata': 모든 인수 형식을 변환할 수 있는 오버로드된 함수가 없습니다.
+          with
+          [
+              T=int
+          ]
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	'Ddata<T>::Ddata(Ddata<T> &&)'일 수 있습니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  		'Ddata<T>::Ddata(Ddata<T> &&)': 인수 1을(를) 'DLNode<T> *'에서 'Ddata<T> &&'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  			원인: 'DLNode<T> *'에서 'Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(24,1):
+  	또는       'Ddata<T>::Ddata(const Ddata<T> &)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  		'Ddata<T>::Ddata(const Ddata<T> &)': 인수 1을(를) 'DLNode<T> *'에서 'const Ddata<T> &'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  			원인: 'DLNode<T> *'에서 'const Ddata<T>'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  			변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(9,2):
+  	또는       'Ddata<T>::Ddata(T)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  		'Ddata<T>::Ddata(T)': 인수 1을(를) 'DLNode<T> *'에서 'T'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  			C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  			이 변환이 가능한 컨텍스트가 없습니다.
+  	C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,20):
+  	인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(40,7):
+  'DLNode<T>::AddNext' 선언을 참조하십시오.
+          with
+          [
+              T=int
+          ]
+  C:\Users\dydtj\Desktop\YS_DataStructures\YS_DataStructures\YS_doublelinkedlist.h(100,10):
+  인수 목록 '(DLNode<T> *)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]
+  
